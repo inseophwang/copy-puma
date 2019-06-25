@@ -4,6 +4,8 @@
 }
 
 .header{
+    height: 75px;
+    align-content: center;
     display: grid;
     grid-template-areas: 
     "south menu home"
@@ -22,3 +24,81 @@
     grid-area: home;
 }
 
+.body{
+    /* align-content: center; */
+    display: grid;
+    grid-template: 
+    "pasta pasta gym gym"
+    "baby alto patridge elephant"
+    "queen orange georgia georgia"
+    "blue blue conference house"
+    "paddle paddle cup cup"
+    "white white white white"
+    ;
+    justify-content: center;
+}
+
+.pasta{
+    grid-area: pasta;
+    /* justify-self: center; */
+}
+
+.gym{
+    grid-area: gym;
+}
+
+.baby{
+    grid-area: baby;
+}
+
+.alto{
+    grid-area: alto;
+}
+
+.patridge{
+    grid-area: patridge;
+}
+
+.elephant{
+    grid-area: elephant;
+}
+
+.queen{
+    grid-area: queen;
+}
+
+.orange{
+    grid-area:orange;
+}
+
+.georgia{
+    grid-area: georgia;
+}
+
+.blue{
+    grid-area: blue;
+}
+
+.conference{
+    grid-area: conference;
+}
+
+.house{
+    grid-area: house;
+}
+
+.paddle{
+    grid-area: paddle;
+}
+
+.cup{
+    grid-area: cup;
+}
+
+.white{
+    grid-area: white;
+}
+
+.top{
+    
+}
