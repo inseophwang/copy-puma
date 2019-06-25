@@ -36,6 +36,7 @@
     "white white white white"
     ;
     justify-content: center;
+    /* align-content: space-between; */
 }
 
 .pasta{
@@ -99,6 +100,143 @@
     grid-area: white;
 }
 
-.top{
+.footer-2{
+    display: grid;
     
+}
+
+.top-2{
+    align-self: flex-end;
+    justify-self: right;
+}
+
+.footer{
+    display: none;
+}
+
+/* .nothing{
+    grid-area: social;
+} */
+
+@media screen and (max-width:600px){
+    /* .container{
+        display: grid;
+        grid-template: 
+        "header"
+        "pictures"
+        "footer"
+    }
+
+    .header{
+        grid-area: header;
+    }
+
+    .body{
+        grid-area: pictures
+    }
+
+    .footer{
+        grid-area: footer;
+    } */
+
+    .body{
+        display: grid;
+        grid-template:
+        "pasta"
+        "gym"
+        "baby"
+        "alto"
+        "patridge"
+        "elephant"
+        "queen"
+        "orange"
+        "georgia"
+        "blue"
+        "conference"
+        "house"
+        "paddle"
+        "cup"
+        "white"
+        ;
+
+        justify-content: center;
+    }
+
+    .gym{
+        grid-area: gym;
+    }
+    
+    .baby{
+        grid-area: baby;
+        
+    }
+    
+    .alto{
+        grid-area: alto;
+    }
+    
+    .patridge{
+        grid-area: patridge;
+    }
+    
+    .elephant{
+        grid-area: elephant;
+    }
+    
+    .queen{
+        grid-area: queen;
+    }
+    
+    .orange{
+        grid-area:orange;
+    }
+    
+    .georgia{
+        grid-area: georgia;
+    }
+    
+    .blue{
+        grid-area: blue;
+    }
+    
+    .conference{
+        grid-area: conference;
+    }
+    
+    .house{
+        grid-area: house;
+    }
+    
+    .paddle{
+        grid-area: paddle;
+    }
+    
+    .cup{
+        grid-area: cup;
+    }
+    
+    .white{
+        grid-area: white;
+    }
+
+    .footer{
+        display: grid;
+        grid-template:
+        "social top"
+        ;
+    }
+    
+    .top{
+        grid-area: top;
+        align-self: flex-end;
+        justify-self: right;
+    }
+    
+    .info{
+        grid-area: social;
+    }
+    
+    .top-2{
+        display: none;
+    }
 }
