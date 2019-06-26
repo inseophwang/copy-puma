@@ -5,6 +5,7 @@
 
 .header{
     position: fixed;
+    padding-left: 20px;
     width: 100%;
     background-color: #1A1A1A;
     top: 0;
@@ -145,6 +146,7 @@
     }
     .pasta{
         grid-area: pasta;
+        object-fit: cover;
         
         
     }
