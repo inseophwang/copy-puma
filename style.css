@@ -47,16 +47,12 @@
 
 .pasta{
     grid-area: pasta;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+    
+    
 }
 
 .gym{
     grid-area: gym;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
 
 }
 
@@ -132,7 +128,7 @@
 
 
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1281px){
     .body{
         display: grid;
         grid-template: 
@@ -147,19 +143,25 @@
         ;
         justify-content: center;
     }
-
+    .pasta{
+        grid-area: pasta;
+        
+        
+    }
+    
     .gym{
         grid-area: gym;
     }
     
     .baby{
         grid-area: baby;
-        
+        /* justify-self: end; */
         
     }
     
     .alto{
         grid-area: alto;
+
     }
     
     .patridge{
@@ -208,6 +210,7 @@
 
     .footer{
         display: grid;
+        padding-left: 25px;
         grid-template:
         "social top"
         ;
@@ -274,34 +277,46 @@
 
         justify-content: center;
     }
-
+    .pasta{
+        grid-area: pasta;
+        /* width: 100%;
+        max-width: 500px; */
+        height: auto;
+    }
+    
     .gym{
         grid-area: gym;
     }
     
     .baby{
         grid-area: baby;
+        justify-self: center;
         
     }
     
     .alto{
         grid-area: alto;
+        justify-self: center;
     }
     
     .patridge{
         grid-area: patridge;
+        justify-self: center;
     }
     
     .elephant{
         grid-area: elephant;
+        justify-self: center;
     }
     
     .queen{
         grid-area: queen;
+        justify-self: center;
     }
     
     .orange{
         grid-area:orange;
+        justify-self: center;
     }
     
     .georgia{
@@ -314,10 +329,12 @@
     
     .conference{
         grid-area: conference;
+        justify-self: center;
     }
     
     .house{
         grid-area: house;
+        justify-self: center;
     }
     
     .paddle{
@@ -330,6 +347,7 @@
     
     .white{
         grid-area: white;
+        justify-self: center;
     }
 
     .footer{
