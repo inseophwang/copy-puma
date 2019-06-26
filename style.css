@@ -5,7 +5,7 @@
 
 .header{
     position: fixed;
-    padding-left: 20px;
+    padding-left: 50px;
     width: 100%;
     background-color: #1A1A1A;
     top: 0;
@@ -372,4 +372,9 @@
     .top-2{
         display: none;
     }
+}
+
+h1{
+    color: #F9F9F9;
+    font-size: 15px;
 }
