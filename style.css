@@ -130,7 +130,108 @@
     grid-area: social;
 } */
 
-@media screen and (max-width:600px){
+
+
+@media only screen and (max-width:1000px){
+    .body{
+        display: grid;
+        grid-template: 
+        "pasta gym"
+        "baby alto"
+        "patridge elephant"
+        "queen orange"
+        "georgia blue"
+        "conference house"
+        "paddle cup"
+        "white white"
+        ;
+        justify-content: center;
+    }
+
+    .gym{
+        grid-area: gym;
+    }
+    
+    .baby{
+        grid-area: baby;
+        
+        
+    }
+    
+    .alto{
+        grid-area: alto;
+    }
+    
+    .patridge{
+        grid-area: patridge;
+    }
+    
+    .elephant{
+        grid-area: elephant;
+    }
+    
+    .queen{
+        grid-area: queen;
+    }
+    
+    .orange{
+        grid-area:orange;
+    }
+    
+    .georgia{
+        grid-area: georgia;
+    }
+    
+    .blue{
+        grid-area: blue;
+    }
+    
+    .conference{
+        grid-area: conference;
+    }
+    
+    .house{
+        grid-area: house;
+    }
+    
+    .paddle{
+        grid-area: paddle;
+    }
+    
+    .cup{
+        grid-area: cup;
+    }
+    
+    .white{
+        grid-area: white;
+    }
+
+    .footer{
+        display: grid;
+        grid-template:
+        "social top"
+        ;
+    }
+    
+    .top{
+        grid-area: top;
+        align-self: flex-end;
+        justify-self: right;
+    }
+    
+    .info{
+        grid-area: social;
+    }
+    
+    .top-2{
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (max-width:600px){
     /* .container{
         display: grid;
         grid-template: 
@@ -251,8 +352,4 @@
     .top-2{
         display: none;
     }
-}
-
-@media screen and (max-width:1000px){
-
 }
