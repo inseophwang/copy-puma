@@ -4,6 +4,10 @@
 }
 
 .header{
+    position: fixed;
+    width: 100%;
+    background-color: #1A1A1A;
+    top: 0;
     height: 75px;
     align-content: center;
     display: grid;
@@ -26,6 +30,8 @@
 
 .body{
     /* align-content: center; */
+    padding-top: 65px;
+    /* padding-left: 50px; */
     display: grid;
     grid-template: 
     "pasta pasta gym gym"
@@ -41,11 +47,17 @@
 
 .pasta{
     grid-area: pasta;
-    /* justify-self: center; */
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 .gym{
     grid-area: gym;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+
 }
 
 .baby{
@@ -239,4 +251,8 @@
     .top-2{
         display: none;
     }
+}
+
+@media screen and (max-width:1000px){
+
 }
